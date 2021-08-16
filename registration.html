@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_bar">
+        <div class="container pt-2 pb-2">
+            <a class="navbar-brand" href="index.html">
+                <label class="logo">Learn & Grow</label>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Courses
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_self" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactas.html">Contact</a>
+                    </li>
+
+                </ul>
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <i class="bi bi-facebook socialicon "></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-instagram socialicon"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_self" href="registration.html">Sign In</a>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- registration -->
+
+
+
+    <div class="comtainer" style="background-color: white;">
+        <h2 class="display-4 text-center pt-3  "> Account details</h2>
+        <div class="row justify-content-evenly">
+            <div class="col-md-8 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Full name" aria-label="First name">
+                    </div>
+                    <div class="col-md-6 ">
+                        <input type="number" class="form-control" placeholder="Contact number" aria-label="Contact number">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-evenly">
+            <div class="col-md-8 mt-5">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="password" class="form-control" placeholder="Password" aria-label="Password">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-evenly">
+            <div class="col-md-8 mt-5">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <input type="password" class="form-control" placeholder="Confirm password" aria-label="Confirm password">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="mail" class="form-control" placeholder="Mail Address" aria-label="Mail Address">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-md-8 mt-5">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-md-8 mt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <textarea class="form-control" placeholder="Address" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <select class="form-select" aria-label="Default select example">
+                                <option selected>Select country</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-8 mt-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckDefault">
+                              
+                                By checking here and continuing, I agree to the Learn & Grow
+                            </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-8 mt-2">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <button type="button" class="btn btn-lg btn-danger ">Submit</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="container-fluid " style="background-color: #000000;">
+        <div class="row justify-content-evenly text-white  p-4">
+            <div class="col-md-3 pt-4 ">
+                <h5 class="pb-2">LetsBuild</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, ex minus beatae earum libero perferendis rerum, at magni maiores itaque illo adipisci consectetur magnam nihil tempore!</p>
+            </div>
+            <div class="col-md-3 pt-4 ">
+                <h5 class="pb-2">Important Links</h5>
+                <p><a href="" class="link-light text-decoration-none">Home</a><br>
+                    <a href="" class="link-light text-decoration-none">Services</a><br>
+                    <a href="" class="link-light text-decoration-none">Portfolio</a><br>
+                    <a href="" class="link-light text-decoration-none">AboutUS</a>
+                </p>
+            </div>
+            <div class="col-md-3 pt-4 ">
+
+                <h5 class="pb-2">ContactUS</h5>
+                <p>Lokmanya Nagar,Hanuman Tekadi<br> Thane(W)-400606.
+                    <br>
+
+                    <i class="bi bi-telephone-forward"> 022-5515454</i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="row bg-secondary text-center text-white p-2">
+        <div class="col-md-12 ">
+            <p>Copyright 1999-2021 by LetsBuild. All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+</body>
+
+</html>

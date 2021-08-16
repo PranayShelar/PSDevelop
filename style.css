@@ -1,0 +1,83 @@
+    #top_bar {
+        padding: 0 6%;
+        background-color: #084298;
+    }
+    
+    .logo {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 1);
+        padding-left: 30px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: yellow;
+    }
+    
+    i.socialicon {
+        font-size: 25px;
+        padding-left: 20px;
+        color: white;
+    }
+    
+    i.socialicon:hover {
+        color: rgb(0, 0, 0);
+    }
+    
+    .main_section {
+        background-image: url(Images/bg.jpg);
+        background-size: cover;
+        height: 80vh;
+        background-position: center;
+    }
+    
+    .mainlabel {
+        font-weight: 700;
+    }
+    
+    .cousersection {
+        background-color: #f1efefe1;
+    }
+    
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .bg-main-color {
+        background: #084298;
+        color: white;
+    }
+    
+    .bg-main-color:hover {
+        background: tomato;
+        color: white;
+    }
+    
+    .team_members {
+        color: rgb(20, 40, 219);
+    }
+    
+    .team_members:hover {
+        color: crimson;
+        cursor: pointer;
+    }
+    
+    .lecturersicon {
+        color: grey;
+    }
+    
+    .btn-course {
+        border: 2px solid #084298;
+        color: #084298;
+    }
+    
+    .btn-course:hover {
+        background: #084298;
+        color: white;
+    }
