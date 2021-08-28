@@ -36,12 +36,13 @@
                   Our Courses
                 </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Web development</a></li>
+                            <li><a class="dropdown-item" href="#">Mobile development</a></li>
+                            <li><a class="dropdown-item" href="#">Programming Languages</a></li>
+                            <li><a class="dropdown-item" href="#">Database Design & development</a></li>
+                            <li><a class="dropdown-item" href="#">softwaretesting</a></li>
+                            <li><a class="dropdown-item" href="#">Data Science</a></li>
+
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -55,12 +56,13 @@
                 <div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+
                         <li class="nav-item">
-                            <a class="nav-link " target="_self" href="registration.html">Login</a>
+                            <a class="nav-link " target="_self" href="registration.html">Sign In</a>
 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " target="_self" href="registration.html">Sign In</a>
+                            <button type="button" class=" btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
 
                         </li>
                         <li class="nav-item">
@@ -78,6 +80,41 @@
         </div>
     </nav>
 
+    <!-- login -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title text-center mx-3" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="Enter Username" aria-label="Username">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="password" class="form-control" placeholder="Enter Password" aria-label="Password">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- main-section -->
 
     <div class="container-fluid main_section">
@@ -99,27 +136,27 @@
             <div class=" row justify-content-evenly text-center p-3 ">
                 <div class="col-md-3 mt-3  courseslist ">
                     <div class="card">
-                        <img src="images/pexels-lukas-574071.jpg " class="card-img-top" alt="...">
+                        <img src="Images/pexels-lukas-574071.jpg " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Web Development</h5>
                             <p class="card-text">Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
-                            <a href="#" class="btn btn-course">Learn more</a>
+                            <a href="https://www.w3schools.com/whatis/" class="btn btn-course">Learn more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-3 courseslist ">
                     <div class="card ">
-                        <img src="images/programming lang.jpg " class="card-img-top " alt="...">
+                        <img src="Images/programming lang.jpg " class="card-img-top " alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Programming Languages</h5>
                             <p class="card-text">A programming language is a formal language comprising a set of strings that produce various kinds output.</p>
-                            <a href="#" class="btn btn-course">Learn more</a>
+                            <a href="https://www.w3schools.in/" class="btn btn-course">Learn more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-3 courseslist">
                     <div class="card">
-                        <img src="images/databasedesign.jpg " class="card-img-top" alt="...">
+                        <img src="Images/databasedesign.jpg " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Database Design & Development</h5>
                             <p class="card-text">Database Design is a collection of processes of designing database.</p>
@@ -131,7 +168,7 @@
             <div class="row justify-content-evenly text-center p-4 mt-4 ">
                 <div class="col-md-3 mt-3 courseslist ">
                     <div class="card">
-                        <img src="images/mobiledevelopment.jpg " class="card-img-top" alt="...">
+                        <img src="Images/mobiledevelopment.jpg " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Mobile Development</h5>
                             <p class="card-text">Mobile app development is the act or process by which a mobile app is developed for mobile devices.</p>
@@ -141,7 +178,7 @@
                 </div>
                 <div class="col-md-3 mt-3 courseslist ">
                     <div class="card">
-                        <img src="images/softwaretesting.jpg " class="card-img-top" alt="...">
+                        <img src="Images/softwaretesting.jpg " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Software Testing</h5>
                             <p class="card-text">
@@ -152,7 +189,7 @@
                 </div>
                 <div class="col-md-3 mt-3 courseslist ">
                     <div class="card">
-                        <img src="images/datascience.jpg " class="card-img-top" alt="...">
+                        <img src="Images/datascience.jpg " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"> Data Science</h5>
                             <p class="card-text">Its is an interdisciplinary field that uses scientific methods,algorithms and systems to extract knowledge.</p>
@@ -170,7 +207,7 @@
         <h2 class="display-4 text-center p-2 mt-1 "> Our Team</h2>
         <div class="row justify-content-evenly  p-2 mt-4 mb-5">
             <div class="col-md-2 pb-2 mt-3  mb-3">
-                <img src="images/person4.png " class="img-fluid" alt="...">
+                <img src="Images/person4.png " class="img-fluid" alt="...">
                 <p class="fs-4 p-2 team_members">John Stuart</p>
                 <span class="bi bi-book-fill lecturersicon">   Software Development Expert.</span><br>
                 <div class="pt-2">
@@ -179,7 +216,7 @@
 
             </div>
             <div class="col-md-2 pb-2 mt-3 mb-3">
-                <img src="images/person1.png " class="img-fluid" alt="...">
+                <img src="Images/person1.png " class="img-fluid" alt="...">
                 <p class="fs-4 p-2 team_members">Stacy McKinsey</p>
                 <span class="bi bi-book-fill lecturersicon">   Database Desgin & development Expert</span><br>
                 <div class="pt-2">
@@ -188,7 +225,7 @@
 
             </div>
             <div class="col-md-2 pb-2 mt-3  mb-3">
-                <img src="images/person3.png " class="img-fluid" alt="...">
+                <img src="Images/person3.png " class="img-fluid" alt="...">
                 <p class="fs-4 p-2 team_members">Kate Simons</p>
                 <span class="bi bi-book-fill lecturersicon">   Software Testing Expert</span><br>
                 <div class="pt-4">
@@ -197,7 +234,7 @@
 
             </div>
             <div class="col-md-2 pb-2 mt-3 mb-3">
-                <img src="images/persom2.png " class="img-fluid" alt="...">
+                <img src="Images/persom2.png " class="img-fluid" alt="...">
                 <p class="fs-4 p-2 team_members">Mike Jackson</p>
                 <span class="bi bi-book-fill lecturersicon">   Data Analysts Expert</span><br>
                 <div class="pt-4">
@@ -208,10 +245,12 @@
         </div>
     </div>
 
+
+
     <!-- FAQ -->
     <div class="row justify-content-evenly mb-4 pb-3">
         <div class="col-md-10 ">
-            <h3 class="text-center pb-3">FAQ</h3>
+            <h3 class="display-4 text-center pb-3">FAQ</h3>
             <div class="accordion accordion-flush border" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
